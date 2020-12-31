@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Block Market</title>
+		<link rel="stylesheet" href="../../css/style.css">
+		<link rel="icon" href="../../ressources/images/icon.png">
+	</head>
+	<body>
+		<div class="header">
+			<ul>
+				<li>
+					<a href="../../index.html">
+						Accueil
+					</a>
+				</li><li>
+					<a href="../who.html">
+						Qui sommes nous?
+					</a>
+				</li><li class="right">
+					<a href="../validate.html" id="panier">
+						Mon panier
+					</a>
+				</li><li class="right">
+					<form>
+						<input type="text" placeholder="Recherche" name="search" id="id_search"/>
+						<button type="button" onclick="window.location.href='../result.html';">Rechercher</button>
+					</form>
+				</li>
+			</ul>
+		</div>
+		<div class="content">
+			<h1>
+				Block d'herbe
+			</h1>
+			<a class="fakeButton">
+				Ajouter au panier
+			</a>
+			<img src="../../ressources/images/blocks/grass_block.png" alt="Grass block">
+			<div class="description">
+				<p>
+					Le block d'herbe est rare car il se transforme en terre quand il est 
+					récupéré normalement.
+				</p>
+				<p>
+					Les deux seuls moyens de le récupérer sont:
+				</p>
+				<ul>
+					<li>
+						le récupérer
+						avec un outil ayant l'enchantement "Silk Touch" où "Toucher de soie" en français.
+					</li>
+					<li>
+						Tuer un enderman portant un block d'herbe
+					</li>
+				</ul>
+				<p>
+					L'herbe se propage naturellement sur la terre voisine si la luminositée est suffisante.
+				</p>
+			</div>
+		</div>
+		<div class="commentSect">
+			<h3>
+			Commentaires:
+			</h3>
+			<div class="comment">
+				<h4>
+					Marcel_467:
+				</h4>
+				<p>
+					Les prix sont si bas, je recommande d'achetter ici!
+				</p>
+			</div>
+			<div class="comment">
+				<h4>
+					Bob_Marley:
+				</h4>
+				<p>
+					Je voulais faire une ile flottante, il m'était indispensable 
+					d'y mettre de l'herbe.
+				</p>
+			</div>
+			<div class="comment">
+				<form>
+				<input type="text" placeholder="Entrez un commentaire" name="comment" id="id_comment"/>
+				<button type="button" id="id_commentSend">Envoyer</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

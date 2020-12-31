@@ -1,0 +1,157 @@
+/*MAIN*/
+body{
+	margin:0;
+	padding:0;
+	background-color:#303030;
+	font-family:"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	font-size:large;
+	color:#ddd;
+	display:flex;
+	flex-direction:column;
+}
+div{
+	margin:10px;
+	align-self:flex-start;
+}
+p{
+	margin:10px;
+}
+.welcome a{
+	text-decoration: none;
+	color:#a5d152;
+}
+h1{
+	padding:10px;
+}
+form{
+	padding:10px;
+	font-size:large;
+}
+/*HEADER*/
+.header{
+	margin:0;
+	padding:0;
+	align-self:stretch;
+}
+.header ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+	background-color:#a5d152;/*nice green*/
+}
+.header li{
+	display:inline-block;
+	margin:0;
+	padding:0;
+}
+.header .selected{
+	background-color:#009999;
+}
+.header .right{
+	float:right;
+}
+.header .selected :hover{
+	background-color:#00aaaa;
+}
+.header a{
+	display:block;
+	text-align: center;
+	text-decoration: none;
+	color:#fff;
+	padding:14px 16px;
+}
+.header a:hover{
+	background-color:#b5e162;
+}
+#panier{
+	color:#d00;
+}
+/*OFFERS*/
+.offers {
+	border:#fff 1px solid;
+	display:flex;
+	flex-wrap: wrap;
+}
+.offer_block {
+	border:#fff 1px solid;
+	margin:10px;
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-decoration:none;
+	color:#ddd;
+}
+.offer_block:hover {
+	background-color:#202020;
+	color:#0f0;
+}
+.offer_block:active {
+	background-color:#101010;
+	color:#0f0;
+}
+.offer_block div p{
+	display:inline-block;
+	margin:0px;
+}
+.offer_block p{
+	margin:10px;
+	text-align: justify;
+}
+.offer_block p:nth-child(1) {
+	color:#a5d152;/*nice green*/
+}
+.offer_block p:nth-child(2) {
+	color:#f55;
+}
+strike {
+	color:#d33;
+}
+strong{
+	color:#3d3;
+}
+/*CONTENT*/
+.content {
+	padding:10px;
+	display:inline-block;
+	border:#ddd 1px solid;
+}
+.content h1{
+	display:inline-block;
+	color:#a5d152;/*nice green*/
+}
+.description{
+	padding:10px;
+	display:inline-block;
+	border:#ddd 1px solid;
+}
+.fakeButton{
+	background-color:#009999;
+	display:inline-block;
+	padding:10px;
+	text-decoration:none;
+}
+.fakeButton:hover{
+	display:inline-block;
+	text-decoration:none;
+	background-color:#00aaaa;
+	padding:10px;
+}
+.content img{
+	display:block;
+}
+/*COMMENT_SECTION*/
+.commentSect{
+	border:#ddd 1px solid;
+	padding:10px;
+	display:inline-block;
+}
+.comment{
+	border:#ddd 1px solid;
+	padding:10px;
+	display:block;
+}
+#id_comment{
+	width:80%;
+}

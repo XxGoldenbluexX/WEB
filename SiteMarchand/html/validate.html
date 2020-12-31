@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Block Market</title>
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="icon" href="../ressources/images/icon.png">
+	</head>
+	<body>
+		<div class="header">
+			<ul>
+				<li>
+					<a href="../index.html">
+						Accueil
+					</a>
+				</li><li>
+					<a href="./who.html">
+						Qui sommes nous?
+					</a>
+				</li><li class="right">
+					<a href="./validate.html" id="panier" class="selected">
+						Mon panier
+					</a>
+				</li><li class="right">
+					<form>
+						<input type="text" placeholder="Recherche" name="search" id="id_search"/>
+						<button type="button" onclick="window.location.href='./result.html';">Rechercher</button>
+					</form>
+				</li>
+			</ul>
+		</div>
+		<h1>
+			Votre panier: <strong>845 €</strong>
+		</h1>
+		<p>
+			Vous avez économisé 245€
+		</p>
+		<div class="offers">
+			<a class="offer_block" href="./blocks/grass_block.html">
+				<div>
+					<p>
+						Block d'herbe
+					</p>
+					<p>
+						-50%
+					</p>
+				</div>
+				<img src="../ressources/images/grass_block_x9.png" alt="Grass block">
+				<p>
+					<strike>10 €</strike> --> <strong>5 €</strong>
+				</p>
+			</a>
+			<a class="offer_block" href="./blocks/grass_block.html">
+				<div>
+					<p>
+						Table d'enchantement
+					</p>
+					<p>
+						-20%
+					</p>
+				</div>
+				<img src="../ressources/images/blocks/enchanting_table.gif" alt="Enchanting Table">
+				<p>
+					<strike>1000 €</strike> --> <strong>800 €</strong>
+				</p>
+			</a>
+		</div>
+		<div class="content">
+			<h3>Informations de livraison</h3>
+			<form>
+				<label for="id_pays">Pays</label>
+				<input id="id_pays" type="text" placeholder="France"/></br>
+				<label for="id_adr">Adresse</label>
+				<input id="id_adr" type="text" placeholder="Paris Bois de boulogne"/></br>
+				<label for="id_pays">Code Postal</label>
+				<input id="id_pays" type="text" placeholder="75000"/></br>
+			</form>
+		</div>
+		<form>
+			<button>Valider mon achat</button>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Block Market</title>
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="icon" href="../ressources/images/icon.png">
+	</head>
+	<body>
+		<div class="header">
+			<ul>
+				<li>
+					<a href="../index.html">
+						Accueil
+					</a>
+				</li><li>
+					<a href="./who.html">
+						Qui sommes nous?
+					</a>
+				</li><li class="right">
+					<a href="./validate.html" id="panier">
+						Mon panier
+					</a>
+				</li><li class="right" class="selected">
+					<form class="selected">
+						<input type="text" placeholder="Recherche" name="search" id="id_search"/>
+						<button type="button" onclick="window.location.href='./result.html';">Rechercher</button>
+					</form>
+				</li>
+			</ul>
+		</div>
+		<h1>
+			Résultat de la recherche: "herbe"
+		</h1>
+		<div class="offers">
+			<a class="offer_block" href="./blocks/grass_block.html">
+				<div>
+					<p>
+						Block d'herbe
+					</p>
+					<p>
+						-50%
+					</p>
+				</div>
+				<img src="../ressources/images/blocks/grass_block.png" alt="Grass block">
+				<p>
+					<strike>10 €</strike> --> <strong>5 €</strong>
+				</p>
+			</a>
+		</div>
+	</body>
+</html>
