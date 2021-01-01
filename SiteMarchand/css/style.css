@@ -105,7 +105,7 @@ form{
 .offer_block p:nth-child(2) {
 	color:#f55;
 }
-strike {
+del {
 	color:#d33;
 }
 strong{
@@ -139,6 +139,9 @@ strong{
 	padding:10px;
 }
 .content img{
+	display:block;
+}
+.br {
 	display:block;
 }
 /*COMMENT_SECTION*/
